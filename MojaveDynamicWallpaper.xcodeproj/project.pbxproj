@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F34C42E21BE0A9300BB6DEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34C42D21BE0A9300BB6DEB /* AppDelegate.swift */; };
+		2F34C43021BE0A9300BB6DEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34C42F21BE0A9300BB6DEB /* ViewController.swift */; };
+		2F34C43221BE0A9D00BB6DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F34C43121BE0A9D00BB6DEB /* Assets.xcassets */; };
+		2F34C43521BE0A9D00BB6DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F34C43321BE0A9D00BB6DEB /* Main.storyboard */; };
+		2F34C44121BE0A9D00BB6DEB /* MojaveDynamicWallpaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34C44021BE0A9D00BB6DEB /* MojaveDynamicWallpaperTests.swift */; };
+		2F34C44C21BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34C44B21BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F34C43D21BE0A9D00BB6DEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F34C42221BE0A9300BB6DEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F34C42921BE0A9300BB6DEB;
+			remoteInfo = MojaveDynamicWallpaper;
+		};
+		2F34C44821BE0A9E00BB6DEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F34C42221BE0A9300BB6DEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F34C42921BE0A9300BB6DEB;
+			remoteInfo = MojaveDynamicWallpaper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F34C42A21BE0A9300BB6DEB /* MojaveDynamicWallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MojaveDynamicWallpaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F34C42D21BE0A9300BB6DEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F34C42F21BE0A9300BB6DEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F34C43121BE0A9D00BB6DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F34C43421BE0A9D00BB6DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F34C43621BE0A9D00BB6DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F34C43721BE0A9D00BB6DEB /* MojaveDynamicWallpaper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MojaveDynamicWallpaper.entitlements; sourceTree = "<group>"; };
+		2F34C43C21BE0A9D00BB6DEB /* MojaveDynamicWallpaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MojaveDynamicWallpaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F34C44021BE0A9D00BB6DEB /* MojaveDynamicWallpaperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojaveDynamicWallpaperTests.swift; sourceTree = "<group>"; };
+		2F34C44221BE0A9D00BB6DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F34C44721BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MojaveDynamicWallpaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F34C44B21BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojaveDynamicWallpaperUITests.swift; sourceTree = "<group>"; };
+		2F34C44D21BE0A9E00BB6DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F34C42721BE0A9300BB6DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F34C43921BE0A9D00BB6DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F34C44421BE0A9E00BB6DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F34C42121BE0A9300BB6DEB = {
+			isa = PBXGroup;
+			children = (
+				2F34C42C21BE0A9300BB6DEB /* MojaveDynamicWallpaper */,
+				2F34C43F21BE0A9D00BB6DEB /* MojaveDynamicWallpaperTests */,
+				2F34C44A21BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests */,
+				2F34C42B21BE0A9300BB6DEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F34C42B21BE0A9300BB6DEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F34C42A21BE0A9300BB6DEB /* MojaveDynamicWallpaper.app */,
+				2F34C43C21BE0A9D00BB6DEB /* MojaveDynamicWallpaperTests.xctest */,
+				2F34C44721BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F34C42C21BE0A9300BB6DEB /* MojaveDynamicWallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				2F34C42D21BE0A9300BB6DEB /* AppDelegate.swift */,
+				2F34C42F21BE0A9300BB6DEB /* ViewController.swift */,
+				2F34C43121BE0A9D00BB6DEB /* Assets.xcassets */,
+				2F34C43321BE0A9D00BB6DEB /* Main.storyboard */,
+				2F34C43621BE0A9D00BB6DEB /* Info.plist */,
+				2F34C43721BE0A9D00BB6DEB /* MojaveDynamicWallpaper.entitlements */,
+			);
+			path = MojaveDynamicWallpaper;
+			sourceTree = "<group>";
+		};
+		2F34C43F21BE0A9D00BB6DEB /* MojaveDynamicWallpaperTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F34C44021BE0A9D00BB6DEB /* MojaveDynamicWallpaperTests.swift */,
+				2F34C44221BE0A9D00BB6DEB /* Info.plist */,
+			);
+			path = MojaveDynamicWallpaperTests;
+			sourceTree = "<group>";
+		};
+		2F34C44A21BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F34C44B21BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests.swift */,
+				2F34C44D21BE0A9E00BB6DEB /* Info.plist */,
+			);
+			path = MojaveDynamicWallpaperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F34C42921BE0A9300BB6DEB /* MojaveDynamicWallpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F34C45021BE0A9E00BB6DEB /* Build configuration list for PBXNativeTarget "MojaveDynamicWallpaper" */;
+			buildPhases = (
+				2F34C42621BE0A9300BB6DEB /* Sources */,
+				2F34C42721BE0A9300BB6DEB /* Frameworks */,
+				2F34C42821BE0A9300BB6DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MojaveDynamicWallpaper;
+			productName = MojaveDynamicWallpaper;
+			productReference = 2F34C42A21BE0A9300BB6DEB /* MojaveDynamicWallpaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F34C43B21BE0A9D00BB6DEB /* MojaveDynamicWallpaperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F34C45321BE0A9E00BB6DEB /* Build configuration list for PBXNativeTarget "MojaveDynamicWallpaperTests" */;
+			buildPhases = (
+				2F34C43821BE0A9D00BB6DEB /* Sources */,
+				2F34C43921BE0A9D00BB6DEB /* Frameworks */,
+				2F34C43A21BE0A9D00BB6DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F34C43E21BE0A9D00BB6DEB /* PBXTargetDependency */,
+			);
+			name = MojaveDynamicWallpaperTests;
+			productName = MojaveDynamicWallpaperTests;
+			productReference = 2F34C43C21BE0A9D00BB6DEB /* MojaveDynamicWallpaperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F34C44621BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F34C45621BE0A9E00BB6DEB /* Build configuration list for PBXNativeTarget "MojaveDynamicWallpaperUITests" */;
+			buildPhases = (
+				2F34C44321BE0A9E00BB6DEB /* Sources */,
+				2F34C44421BE0A9E00BB6DEB /* Frameworks */,
+				2F34C44521BE0A9E00BB6DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F34C44921BE0A9E00BB6DEB /* PBXTargetDependency */,
+			);
+			name = MojaveDynamicWallpaperUITests;
+			productName = MojaveDynamicWallpaperUITests;
+			productReference = 2F34C44721BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F34C42221BE0A9300BB6DEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = FuKai;
+				TargetAttributes = {
+					2F34C42921BE0A9300BB6DEB = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					2F34C43B21BE0A9D00BB6DEB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2F34C42921BE0A9300BB6DEB;
+					};
+					2F34C44621BE0A9E00BB6DEB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2F34C42921BE0A9300BB6DEB;
+					};
+				};
+			};
+			buildConfigurationList = 2F34C42521BE0A9300BB6DEB /* Build configuration list for PBXProject "MojaveDynamicWallpaper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F34C42121BE0A9300BB6DEB;
+			productRefGroup = 2F34C42B21BE0A9300BB6DEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F34C42921BE0A9300BB6DEB /* MojaveDynamicWallpaper */,
+				2F34C43B21BE0A9D00BB6DEB /* MojaveDynamicWallpaperTests */,
+				2F34C44621BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F34C42821BE0A9300BB6DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F34C43221BE0A9D00BB6DEB /* Assets.xcassets in Resources */,
+				2F34C43521BE0A9D00BB6DEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F34C43A21BE0A9D00BB6DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F34C44521BE0A9E00BB6DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F34C42621BE0A9300BB6DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F34C43021BE0A9300BB6DEB /* ViewController.swift in Sources */,
+				2F34C42E21BE0A9300BB6DEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F34C43821BE0A9D00BB6DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F34C44121BE0A9D00BB6DEB /* MojaveDynamicWallpaperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F34C44321BE0A9E00BB6DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F34C44C21BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F34C43E21BE0A9D00BB6DEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F34C42921BE0A9300BB6DEB /* MojaveDynamicWallpaper */;
+			targetProxy = 2F34C43D21BE0A9D00BB6DEB /* PBXContainerItemProxy */;
+		};
+		2F34C44921BE0A9E00BB6DEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F34C42921BE0A9300BB6DEB /* MojaveDynamicWallpaper */;
+			targetProxy = 2F34C44821BE0A9E00BB6DEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F34C43321BE0A9D00BB6DEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F34C43421BE0A9D00BB6DEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F34C44E21BE0A9E00BB6DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F34C44F21BE0A9E00BB6DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2F34C45121BE0A9E00BB6DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MojaveDynamicWallpaper/MojaveDynamicWallpaper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				INFOPLIST_FILE = MojaveDynamicWallpaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayi.sichuan.MojaveDynamicWallpaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENABLE_BATCH_MODE = NO;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		2F34C45221BE0A9E00BB6DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MojaveDynamicWallpaper/MojaveDynamicWallpaper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				INFOPLIST_FILE = MojaveDynamicWallpaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayi.sichuan.MojaveDynamicWallpaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENABLE_BATCH_MODE = NO;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		2F34C45421BE0A9E00BB6DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				INFOPLIST_FILE = MojaveDynamicWallpaperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayi.sichuan.MojaveDynamicWallpaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MojaveDynamicWallpaper.app/Contents/MacOS/MojaveDynamicWallpaper";
+			};
+			name = Debug;
+		};
+		2F34C45521BE0A9E00BB6DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				INFOPLIST_FILE = MojaveDynamicWallpaperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayi.sichuan.MojaveDynamicWallpaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MojaveDynamicWallpaper.app/Contents/MacOS/MojaveDynamicWallpaper";
+			};
+			name = Release;
+		};
+		2F34C45721BE0A9E00BB6DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				INFOPLIST_FILE = MojaveDynamicWallpaperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayi.sichuan.MojaveDynamicWallpaperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = MojaveDynamicWallpaper;
+			};
+			name = Debug;
+		};
+		2F34C45821BE0A9E00BB6DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				INFOPLIST_FILE = MojaveDynamicWallpaperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayi.sichuan.MojaveDynamicWallpaperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = MojaveDynamicWallpaper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F34C42521BE0A9300BB6DEB /* Build configuration list for PBXProject "MojaveDynamicWallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F34C44E21BE0A9E00BB6DEB /* Debug */,
+				2F34C44F21BE0A9E00BB6DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F34C45021BE0A9E00BB6DEB /* Build configuration list for PBXNativeTarget "MojaveDynamicWallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F34C45121BE0A9E00BB6DEB /* Debug */,
+				2F34C45221BE0A9E00BB6DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F34C45321BE0A9E00BB6DEB /* Build configuration list for PBXNativeTarget "MojaveDynamicWallpaperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F34C45421BE0A9E00BB6DEB /* Debug */,
+				2F34C45521BE0A9E00BB6DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F34C45621BE0A9E00BB6DEB /* Build configuration list for PBXNativeTarget "MojaveDynamicWallpaperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F34C45721BE0A9E00BB6DEB /* Debug */,
+				2F34C45821BE0A9E00BB6DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F34C42221BE0A9300BB6DEB /* Project object */;
+}
