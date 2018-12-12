@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14373271F4851B4BE3BBD2BDBA67CA65 /* AppSandboxFileAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2E1E11491D94C28CD8CB66809B31F0 /* AppSandboxFileAccess-dummy.m */; };
+		478943AF6EB9768991951BEE54EBD5E8 /* Pods-MojaveDynamicWallpaper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CFC21F773248F655D64AB9D958656B /* Pods-MojaveDynamicWallpaper-dummy.m */; };
+		55D2777441141AB9662F4E116DA57541 /* AppSandboxFileAccessOpenSavePanelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 55669EB0416798C2F5B889B3D92557D0 /* AppSandboxFileAccessOpenSavePanelDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		83AE18F3943BB1C5EB31AEAB2C2600BA /* AppSandboxFileAccessPersist.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5BDECD530597EF84B21FF315B2057 /* AppSandboxFileAccessPersist.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		95B1EF15BAE0A9B4B82B47B4A8A5CF9C /* AppSandboxFileAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 575983701BA2361904862ED05FAD8154 /* AppSandboxFileAccess.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C8D06B92672F21AFFCA978790044C3B1 /* AppSandboxFileAccessOpenSavePanelDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A699E16A81798BD23E8A47823916C /* AppSandboxFileAccessOpenSavePanelDelegate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CE8878C831DFB17BD69E21D676E5F167 /* AppSandboxFileAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB05AA7B60C49F68410197FEE755C7F /* AppSandboxFileAccess.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E85F035970B8C471F178008172666A4A /* AppSandboxFileAccessPersist.h in Headers */ = {isa = PBXBuildFile; fileRef = 06A7636D972BBB83B33C42578A89F52A /* AppSandboxFileAccessPersist.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EB539D875449481BEA1C6FBECB37362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C58C8DE70F367905E546B018C7BE6ED4;
+			remoteInfo = AppSandboxFileAccess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06A7636D972BBB83B33C42578A89F52A /* AppSandboxFileAccessPersist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppSandboxFileAccessPersist.h; path = AppSandboxFileAccess/Classes/AppSandboxFileAccessPersist.h; sourceTree = "<group>"; };
+		0CBEFDB1B94F3C00FF83D01C513C0FBD /* Pods-MojaveDynamicWallpaper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MojaveDynamicWallpaper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13BE2971AED1EF8D1F5230CCCAD70E7A /* Pods-MojaveDynamicWallpaper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MojaveDynamicWallpaper-acknowledgements.plist"; sourceTree = "<group>"; };
+		187E9B7028567297A494D6F73E58BE9B /* Pods-MojaveDynamicWallpaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MojaveDynamicWallpaper.release.xcconfig"; sourceTree = "<group>"; };
+		2DC5BDECD530597EF84B21FF315B2057 /* AppSandboxFileAccessPersist.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AppSandboxFileAccessPersist.m; path = AppSandboxFileAccess/Classes/AppSandboxFileAccessPersist.m; sourceTree = "<group>"; };
+		48CFC21F773248F655D64AB9D958656B /* Pods-MojaveDynamicWallpaper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MojaveDynamicWallpaper-dummy.m"; sourceTree = "<group>"; };
+		4A9A699E16A81798BD23E8A47823916C /* AppSandboxFileAccessOpenSavePanelDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AppSandboxFileAccessOpenSavePanelDelegate.m; path = AppSandboxFileAccess/Classes/AppSandboxFileAccessOpenSavePanelDelegate.m; sourceTree = "<group>"; };
+		54EE666E890636C890B0D123F796B8C7 /* AppSandboxFileAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppSandboxFileAccess-prefix.pch"; sourceTree = "<group>"; };
+		55669EB0416798C2F5B889B3D92557D0 /* AppSandboxFileAccessOpenSavePanelDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppSandboxFileAccessOpenSavePanelDelegate.h; path = AppSandboxFileAccess/Classes/AppSandboxFileAccessOpenSavePanelDelegate.h; sourceTree = "<group>"; };
+		575983701BA2361904862ED05FAD8154 /* AppSandboxFileAccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AppSandboxFileAccess.m; path = AppSandboxFileAccess/Classes/AppSandboxFileAccess.m; sourceTree = "<group>"; };
+		64F5666738FAB4182AB79A86DFBA0B26 /* libAppSandboxFileAccess.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAppSandboxFileAccess.a; path = libAppSandboxFileAccess.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA9629BC4BBAB1EDA4DEA21FC5D4A357 /* AppSandboxFileAccess.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppSandboxFileAccess.xcconfig; sourceTree = "<group>"; };
+		AD843FC2C487B2A59E01DAEDEAE387CB /* Pods-MojaveDynamicWallpaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MojaveDynamicWallpaper.debug.xcconfig"; sourceTree = "<group>"; };
+		CDB05AA7B60C49F68410197FEE755C7F /* AppSandboxFileAccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppSandboxFileAccess.h; path = AppSandboxFileAccess/Classes/AppSandboxFileAccess.h; sourceTree = "<group>"; };
+		E180FBB158BCF979FB9704754E650EDE /* libPods-MojaveDynamicWallpaper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MojaveDynamicWallpaper.a"; path = "libPods-MojaveDynamicWallpaper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2E1E11491D94C28CD8CB66809B31F0 /* AppSandboxFileAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AppSandboxFileAccess-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CA279B84EF82E119957032DFA51BD77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9311045CDFF79A8967C83398F53D9B85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				FBB64E23714FFB2B9E0A79B44DA610A6 /* Pods */,
+				FBB9F35F3AC218EA3F57FAF9EF8EB8D1 /* Products */,
+				CA596D6A8D0D9796A4CA045054288B86 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F00BC84A16A4919A81F7166E111A142 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA9629BC4BBAB1EDA4DEA21FC5D4A357 /* AppSandboxFileAccess.xcconfig */,
+				FE2E1E11491D94C28CD8CB66809B31F0 /* AppSandboxFileAccess-dummy.m */,
+				54EE666E890636C890B0D123F796B8C7 /* AppSandboxFileAccess-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppSandboxFileAccess";
+			sourceTree = "<group>";
+		};
+		9FF450486DF3C86199F9141AEE5A1AFE /* AppSandboxFileAccess */ = {
+			isa = PBXGroup;
+			children = (
+				CDB05AA7B60C49F68410197FEE755C7F /* AppSandboxFileAccess.h */,
+				575983701BA2361904862ED05FAD8154 /* AppSandboxFileAccess.m */,
+				55669EB0416798C2F5B889B3D92557D0 /* AppSandboxFileAccessOpenSavePanelDelegate.h */,
+				4A9A699E16A81798BD23E8A47823916C /* AppSandboxFileAccessOpenSavePanelDelegate.m */,
+				06A7636D972BBB83B33C42578A89F52A /* AppSandboxFileAccessPersist.h */,
+				2DC5BDECD530597EF84B21FF315B2057 /* AppSandboxFileAccessPersist.m */,
+				7F00BC84A16A4919A81F7166E111A142 /* Support Files */,
+			);
+			name = AppSandboxFileAccess;
+			path = AppSandboxFileAccess;
+			sourceTree = "<group>";
+		};
+		CA596D6A8D0D9796A4CA045054288B86 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAC25E5302B08E44BF418719B05185D3 /* Pods-MojaveDynamicWallpaper */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CAC25E5302B08E44BF418719B05185D3 /* Pods-MojaveDynamicWallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				0CBEFDB1B94F3C00FF83D01C513C0FBD /* Pods-MojaveDynamicWallpaper-acknowledgements.markdown */,
+				13BE2971AED1EF8D1F5230CCCAD70E7A /* Pods-MojaveDynamicWallpaper-acknowledgements.plist */,
+				48CFC21F773248F655D64AB9D958656B /* Pods-MojaveDynamicWallpaper-dummy.m */,
+				AD843FC2C487B2A59E01DAEDEAE387CB /* Pods-MojaveDynamicWallpaper.debug.xcconfig */,
+				187E9B7028567297A494D6F73E58BE9B /* Pods-MojaveDynamicWallpaper.release.xcconfig */,
+			);
+			name = "Pods-MojaveDynamicWallpaper";
+			path = "Target Support Files/Pods-MojaveDynamicWallpaper";
+			sourceTree = "<group>";
+		};
+		FBB64E23714FFB2B9E0A79B44DA610A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FF450486DF3C86199F9141AEE5A1AFE /* AppSandboxFileAccess */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBB9F35F3AC218EA3F57FAF9EF8EB8D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64F5666738FAB4182AB79A86DFBA0B26 /* libAppSandboxFileAccess.a */,
+				E180FBB158BCF979FB9704754E650EDE /* libPods-MojaveDynamicWallpaper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C16386EBDE3158FF1B541D26DA56F9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBABADFFE69D09F9D213614DD4096494 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8878C831DFB17BD69E21D676E5F167 /* AppSandboxFileAccess.h in Headers */,
+				55D2777441141AB9662F4E116DA57541 /* AppSandboxFileAccessOpenSavePanelDelegate.h in Headers */,
+				E85F035970B8C471F178008172666A4A /* AppSandboxFileAccessPersist.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C4BCC56D81FD036058B84F86995A2F3D /* Pods-MojaveDynamicWallpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB60B1FAD27D95512431E4E00697A6E3 /* Build configuration list for PBXNativeTarget "Pods-MojaveDynamicWallpaper" */;
+			buildPhases = (
+				4C16386EBDE3158FF1B541D26DA56F9E /* Headers */,
+				0FEBAB2BD7626A2941C420E1BCF443A5 /* Sources */,
+				2CA279B84EF82E119957032DFA51BD77 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEFF988605D0C811D4432986A38B4DC6 /* PBXTargetDependency */,
+			);
+			name = "Pods-MojaveDynamicWallpaper";
+			productName = "Pods-MojaveDynamicWallpaper";
+			productReference = E180FBB158BCF979FB9704754E650EDE /* libPods-MojaveDynamicWallpaper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C58C8DE70F367905E546B018C7BE6ED4 /* AppSandboxFileAccess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8377774754C825952A10829186265F68 /* Build configuration list for PBXNativeTarget "AppSandboxFileAccess" */;
+			buildPhases = (
+				BBABADFFE69D09F9D213614DD4096494 /* Headers */,
+				0FEE1C6411D5653A09940DC97FFB2941 /* Sources */,
+				9311045CDFF79A8967C83398F53D9B85 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppSandboxFileAccess;
+			productName = AppSandboxFileAccess;
+			productReference = 64F5666738FAB4182AB79A86DFBA0B26 /* libAppSandboxFileAccess.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FBB9F35F3AC218EA3F57FAF9EF8EB8D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C58C8DE70F367905E546B018C7BE6ED4 /* AppSandboxFileAccess */,
+				C4BCC56D81FD036058B84F86995A2F3D /* Pods-MojaveDynamicWallpaper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FEBAB2BD7626A2941C420E1BCF443A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478943AF6EB9768991951BEE54EBD5E8 /* Pods-MojaveDynamicWallpaper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FEE1C6411D5653A09940DC97FFB2941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14373271F4851B4BE3BBD2BDBA67CA65 /* AppSandboxFileAccess-dummy.m in Sources */,
+				95B1EF15BAE0A9B4B82B47B4A8A5CF9C /* AppSandboxFileAccess.m in Sources */,
+				C8D06B92672F21AFFCA978790044C3B1 /* AppSandboxFileAccessOpenSavePanelDelegate.m in Sources */,
+				83AE18F3943BB1C5EB31AEAB2C2600BA /* AppSandboxFileAccessPersist.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEFF988605D0C811D4432986A38B4DC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppSandboxFileAccess;
+			target = C58C8DE70F367905E546B018C7BE6ED4 /* AppSandboxFileAccess */;
+			targetProxy = 7EB539D875449481BEA1C6FBECB37362 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21327E5FBD09C854E0BBBB688BA8F28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187E9B7028567297A494D6F73E58BE9B /* Pods-MojaveDynamicWallpaper.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C2D890269F1FA25DC30D6FE55231A243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CFD9D1EB9DA1B7A876168E1B8A103B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA9629BC4BBAB1EDA4DEA21FC5D4A357 /* AppSandboxFileAccess.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/AppSandboxFileAccess/AppSandboxFileAccess-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AppSandboxFileAccess;
+				PRODUCT_NAME = AppSandboxFileAccess;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		D0AD58396AEB1FF37F60C3FBAEBB98DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E320A6C9CB21CB8F93BADC1C743B9D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD843FC2C487B2A59E01DAEDEAE387CB /* Pods-MojaveDynamicWallpaper.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E83BD0B2B4B848335E5320B0E1ECBDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA9629BC4BBAB1EDA4DEA21FC5D4A357 /* AppSandboxFileAccess.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/AppSandboxFileAccess/AppSandboxFileAccess-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AppSandboxFileAccess;
+				PRODUCT_NAME = AppSandboxFileAccess;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0AD58396AEB1FF37F60C3FBAEBB98DE /* Debug */,
+				C2D890269F1FA25DC30D6FE55231A243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8377774754C825952A10829186265F68 /* Build configuration list for PBXNativeTarget "AppSandboxFileAccess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E83BD0B2B4B848335E5320B0E1ECBDAF /* Debug */,
+				CFD9D1EB9DA1B7A876168E1B8A103B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB60B1FAD27D95512431E4E00697A6E3 /* Build configuration list for PBXNativeTarget "Pods-MojaveDynamicWallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E320A6C9CB21CB8F93BADC1C743B9D34 /* Debug */,
+				21327E5FBD09C854E0BBBB688BA8F28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

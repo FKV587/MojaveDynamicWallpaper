@@ -7,25 +7,26 @@
 //
 
 import Foundation
+import Cocoa
 
 class Program {
 
     let consoleIO = ConsoleIO()
     var inputFileName = ""
-    var outputFileName = "output.heic"
-
+    var outputFileName = "/Users/FK/Desktop/image/output.heic"
+    
     func run() -> Bool {
 
-        let (shouldBreak, resultCode) = self.proceedCommandLineArguments()
-        if shouldBreak {
-            return resultCode
-        }
+//        let (shouldBreak, resultCode) = self.proceedCommandLineArguments()
+//        if shouldBreak {
+//            return resultCode
+//        }
 
         do {
             let fileURL = try self.getPathToJsonFile()
-            self.consoleIO.writeMessage("Reading JSON file: '\(fileURL.absoluteString)'...", to: .debug)
+            let image = NSImage.init(contentsOf: fileURL)
+            let image1 = NSImage.init(contentsOfFile: self.inputFileName)
             let inputFileContents = try Data(contentsOf: fileURL)
-            self.consoleIO.writeMessage("OK.\n", to: .debug)
             
             let decoder = JSONDecoder()
             self.consoleIO.writeMessage("Decoding JSON file...", to: .debug)
@@ -49,6 +50,7 @@ class Program {
     }
 
     func proceedCommandLineArguments() -> (Bool, Bool) {
+        
         if CommandLine.arguments.count == 1 {
             self.printUsage()
             return (true, false)

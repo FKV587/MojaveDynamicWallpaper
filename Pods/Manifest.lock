@@ -1,0 +1,16 @@
+PODS:
+  - AppSandboxFileAccess (1.0.14)
+
+DEPENDENCIES:
+  - AppSandboxFileAccess (~> 1.0.14)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AppSandboxFileAccess
+
+SPEC CHECKSUMS:
+  AppSandboxFileAccess: f3e10b0ba10bbaa6dc6996639ff47836050329c5
+
+PODFILE CHECKSUM: bd5366a75d00c2e9ac27f51b6112a8c34732066a
+
+COCOAPODS: 1.6.0.beta.1
