@@ -79,7 +79,7 @@ class Generator {
                 }
                 self.consoleIO.writeMessage("OK.\n", to: .debug)
 
-                let outputURL = URL(fileURLWithPath: self.outputFileName)
+                let outputURL = URL(fileURLWithPath: self.outputFileName, relativeTo: self.baseURL)
                 self.consoleIO.writeMessage("Saving data to file '\(outputURL.absoluteString)'...", to: .debug)
                 let imageData = destinationData as Data
                 try imageData.write(to: outputURL)

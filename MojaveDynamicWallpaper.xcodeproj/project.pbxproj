@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F253C5121C3443A00FF4BCF /* ImageCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F253C5021C3443A00FF4BCF /* ImageCollectionViewItem.xib */; };
 		2F34C42E21BE0A9300BB6DEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34C42D21BE0A9300BB6DEB /* AppDelegate.swift */; };
 		2F34C43021BE0A9300BB6DEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34C42F21BE0A9300BB6DEB /* ViewController.swift */; };
 		2F34C43221BE0A9D00BB6DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F34C43121BE0A9D00BB6DEB /* Assets.xcassets */; };
 		2F34C43521BE0A9D00BB6DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F34C43321BE0A9D00BB6DEB /* Main.storyboard */; };
 		2F34C44121BE0A9D00BB6DEB /* MojaveDynamicWallpaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34C44021BE0A9D00BB6DEB /* MojaveDynamicWallpaperTests.swift */; };
 		2F34C44C21BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34C44B21BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests.swift */; };
+		2F9F887F21C23DE100FD2519 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F887D21C23DE100FD2519 /* MainViewController.swift */; };
+		2F9F888521C342F100FD2519 /* ImageCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F888421C342F100FD2519 /* ImageCollectionViewItem.swift */; };
 		2FB8A77D21C0FC930063C39B /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 2FB8A76221C0FC910063C39B /* LICENSE.md */; };
 		2FB8A77E21C0FC930063C39B /* wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB8A76421C0FC910063C39B /* wallpaper.png */; };
 		2FB8A77F21C0FC930063C39B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2FB8A76521C0FC910063C39B /* README.md */; };
@@ -53,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		2BDD0CBCE7FA8993559992E2 /* Pods-MojaveDynamicWallpaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MojaveDynamicWallpaper.release.xcconfig"; path = "Target Support Files/Pods-MojaveDynamicWallpaper/Pods-MojaveDynamicWallpaper.release.xcconfig"; sourceTree = "<group>"; };
+		2F253C5021C3443A00FF4BCF /* ImageCollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewItem.xib; sourceTree = "<group>"; };
 		2F34C42A21BE0A9300BB6DEB /* MojaveDynamicWallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MojaveDynamicWallpaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F34C42D21BE0A9300BB6DEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F34C42F21BE0A9300BB6DEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 		2F34C44721BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MojaveDynamicWallpaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F34C44B21BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojaveDynamicWallpaperUITests.swift; sourceTree = "<group>"; };
 		2F34C44D21BE0A9E00BB6DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F9F887D21C23DE100FD2519 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2F9F888421C342F100FD2519 /* ImageCollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewItem.swift; sourceTree = "<group>"; };
 		2FB8A76221C0FC910063C39B /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		2FB8A76421C0FC910063C39B /* wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallpaper.png; sourceTree = "<group>"; };
 		2FB8A76521C0FC910063C39B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -140,6 +146,7 @@
 		2F34C42C21BE0A9300BB6DEB /* MojaveDynamicWallpaper */ = {
 			isa = PBXGroup;
 			children = (
+				2F9F887B21C23DE100FD2519 /* MainViewController */,
 				2FB8A76121C0FC910063C39B /* wallpapper */,
 				2F34C42D21BE0A9300BB6DEB /* AppDelegate.swift */,
 				2F34C42F21BE0A9300BB6DEB /* ViewController.swift */,
@@ -168,6 +175,16 @@
 				2F34C44D21BE0A9E00BB6DEB /* Info.plist */,
 			);
 			path = MojaveDynamicWallpaperUITests;
+			sourceTree = "<group>";
+		};
+		2F9F887B21C23DE100FD2519 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2F9F887D21C23DE100FD2519 /* MainViewController.swift */,
+				2F9F888421C342F100FD2519 /* ImageCollectionViewItem.swift */,
+				2F253C5021C3443A00FF4BCF /* ImageCollectionViewItem.xib */,
+			);
+			path = MainViewController;
 			sourceTree = "<group>";
 		};
 		2FB8A76121C0FC910063C39B /* wallpapper */ = {
@@ -389,6 +406,7 @@
 				2FB8A77E21C0FC930063C39B /* wallpaper.png in Resources */,
 				2F34C43221BE0A9D00BB6DEB /* Assets.xcassets in Resources */,
 				2FB8A77F21C0FC930063C39B /* README.md in Resources */,
+				2F253C5121C3443A00FF4BCF /* ImageCollectionViewItem.xib in Resources */,
 				2FB8A77D21C0FC930063C39B /* LICENSE.md in Resources */,
 				2F34C43521BE0A9D00BB6DEB /* Main.storyboard in Resources */,
 			);
@@ -448,6 +466,7 @@
 				2FB8A78B21C0FC930063C39B /* NamespaceNotRegisteredError.swift in Sources */,
 				2FB8A78021C0FC930063C39B /* Package.swift in Sources */,
 				2FB8A78421C0FC930063C39B /* SequenceItem.swift in Sources */,
+				2F9F888521C342F100FD2519 /* ImageCollectionViewItem.swift in Sources */,
 				2FB8A78721C0FC930063C39B /* NSImage.swift in Sources */,
 				2FB8A78321C0FC930063C39B /* SequenceInfo.swift in Sources */,
 				2FB8A78121C0FC930063C39B /* Generator.swift in Sources */,
@@ -455,6 +474,7 @@
 				2FB8A78A21C0FC930063C39B /* NotSupportedSystemError.swift in Sources */,
 				2FB8A78921C0FC930063C39B /* Program.swift in Sources */,
 				2FB8A78821C0FC930063C39B /* PictureInfo.swift in Sources */,
+				2F9F887F21C23DE100FD2519 /* MainViewController.swift in Sources */,
 				2FB8A78521C0FC930063C39B /* OutputType.swift in Sources */,
 				2F34C42E21BE0A9300BB6DEB /* AppDelegate.swift in Sources */,
 			);
@@ -633,7 +653,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dayi.sichuan.MojaveDynamicWallpaper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayi.sichuan.MojaveDynamicWallpaper.fk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/MojaveDynamicWallpaper/bridging.h";
@@ -656,7 +676,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dayi.sichuan.MojaveDynamicWallpaper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayi.sichuan.MojaveDynamicWallpaper.fk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/MojaveDynamicWallpaper/bridging.h";

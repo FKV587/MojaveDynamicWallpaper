@@ -1,16 +1,20 @@
 PODS:
   - AppSandboxFileAccess (1.0.14)
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - AppSandboxFileAccess (~> 1.0.14)
+  - SnapKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AppSandboxFileAccess
+    - SnapKit
 
 SPEC CHECKSUMS:
   AppSandboxFileAccess: f3e10b0ba10bbaa6dc6996639ff47836050329c5
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: bd5366a75d00c2e9ac27f51b6112a8c34732066a
+PODFILE CHECKSUM: 75596af4bfe3b5f7ae639a3f83d402c4f7ea2c3f
 
 COCOAPODS: 1.6.0.beta.1

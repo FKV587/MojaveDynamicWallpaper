@@ -13,7 +13,7 @@ class Program {
 
     let consoleIO = ConsoleIO()
     var inputFileName = ""
-    var outputFileName = "/Users/FK/Desktop/image/output.heic"
+    var outputFileName = "output.heic"
     
     func run() -> Bool {
 
@@ -24,8 +24,6 @@ class Program {
 
         do {
             let fileURL = try self.getPathToJsonFile()
-            let image = NSImage.init(contentsOf: fileURL)
-            let image1 = NSImage.init(contentsOfFile: self.inputFileName)
             let inputFileContents = try Data(contentsOf: fileURL)
             
             let decoder = JSONDecoder()

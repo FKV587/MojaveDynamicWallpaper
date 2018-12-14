@@ -1,0 +1,1 @@
+/Users/FK/Desktop/git/MojaveDynamicWallpaper/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h

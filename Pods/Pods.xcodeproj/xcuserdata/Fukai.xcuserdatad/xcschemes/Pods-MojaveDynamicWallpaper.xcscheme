@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C4BCC56D81FD036058B84F86995A2F3D"
+               BlueprintIdentifier = "614001E1FEC10E3215FB9EA6A98E06DF"
                BlueprintName = "Pods-MojaveDynamicWallpaper"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-MojaveDynamicWallpaper.a">
