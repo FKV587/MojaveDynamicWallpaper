@@ -6,15 +6,16 @@
 //  Copyright © 2018 Marcin Czachurski. All rights reserved.
 //
 
-import Foundation
+import AppKit
 
-class PictureInfo: Decodable {
+class PictureInfo: NSObject {
     var fileName: String
     var isPrimary = false
     var isForLight = false
     var isForDark = false
     var altitude = 0.0
     var azimuth = 0.0
+    var image:NSImage?
 
     init(fileName: String, isPrimary: Bool, isForLight: Bool, isForDark: Bool, altitude: Double, azimuth: Double) {
         self.fileName = fileName

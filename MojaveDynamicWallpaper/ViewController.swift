@@ -11,30 +11,22 @@ import SnapKit
 
 class ViewController: NSViewController {
     
-    var indexPathsOfItemsBeingDragged: Set<IndexPath> = Set()
-    var list : [[String:String]] = {
-        let array = NSMutableArray()
-        
-        for index in 0 ... 16 {
-            let dic = NSMutableDictionary()
-            dic.setValue("\(index)", forKey: "fileName")
-            dic.setValue("\(false)", forKey: "isPrimary")
-            dic.setValue("\(false)", forKey: "isForLight")
-            dic.setValue("", forKey: "altitude")
-            dic.setValue("", forKey: "azimuth")
-            dic.setValue("", forKey: "filePath")
-            array.add(dic)
-        }
-        
-        return array as! [[String : String]]
-    }()
-    
     @IBOutlet weak var collectionView: NSCollectionView!
-    let program = Program()
+    var indexPathsOfItemsBeingDragged: Set<IndexPath> = Set()
+    let heic = Heic()
+
+    var list : [PictureInfo] = {
+        let array = NSMutableArray()
+        for index in 1 ... 16 {
+            let info = PictureInfo(fileName: "\(index)", isPrimary: index == 1, isForLight: index == 1, isForDark: index == 1, altitude: 0.0, azimuth: 0.0)
+            array.add(info)
+        }
+        return array as! [PictureInfo]
+    }()
     
     lazy var flowLayout: NSCollectionViewFlowLayout = {
         let flowLayout = NSCollectionViewFlowLayout.init()
-//        flowLayout.itemSize = NSSize(width: 80.0, height: 80.0)
+        flowLayout.itemSize = NSSize(width: 400.0, height: 400.0)
         flowLayout.sectionInset = NSEdgeInsets(top: 20.0, left: 20.0, bottom: 20.0, right: 20.0)
         flowLayout.minimumInteritemSpacing = 20.0
         flowLayout.minimumLineSpacing = 20.0
@@ -42,50 +34,30 @@ class ViewController: NSViewController {
         return flowLayout
     }()
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-//        getsssss()
         collectionView.collectionViewLayout = flowLayout
         collectionView.isSelectable = true
-//        卧槽不需要注册？？？
-//        collectionView.register(ImageCollectionViewItem.self, forItemWithIdentifier: NSUserInterfaceItemIdentifier(rawValue: "ImageCollectionViewItem"))
         collectionView.registerForDraggedTypes([NSPasteboard.PasteboardType.string])
         collectionView.setDraggingSourceOperationMask(.every, forLocal: true)
     }
     
-    func getsssss(){
-        program.inputFileName = "/Users/FK/Desktop/image/text.json"
-
-        let fileAccess = AppSandboxFileAccess.init()
-        fileAccess?.persistPermissionPath(program.inputFileName)
-        do {
-            let parentDirectory = try program.getPathToJsonFile().deletingLastPathComponent().absoluteString
-            
-            let accessAllowed = fileAccess?.accessFilePath(parentDirectory, persistPermission: false, with: { [weak self] in
-                self?.run()
-            })
-            
-            if accessAllowed! {
-                print("Sad Wookie")
-            }else{
-                run()
-            }
-        } catch {
-            
-        }
+    @IBAction func synthesisButtonAction(_ sender: NSButton) {
+        synthesis()
     }
     
-    func run() {
-        let result = program.run()
-        exit(result ? EXIT_SUCCESS : EXIT_FAILURE)
-    }
+    func synthesis(){
+        heic.outputFilePath = "/Users/FK/Desktop/image"
+        let fileAccess = AppSandboxFileAccess.init()
+        fileAccess?.persistPermissionPath(heic.outputFilePath)
+        let parentDirectory = URL.init(fileURLWithPath: heic.outputFilePath!).deletingLastPathComponent().absoluteString
 
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
+        let accessAllowed = fileAccess?.accessFilePath(parentDirectory, persistPermission: false, with: { [weak self] in
+            guard let weakSelf = self else{return}
+            weakSelf.heic.run(list:weakSelf.list)
+        })
+        if !accessAllowed! {
+            print("没有授权")
         }
     }
 }
@@ -102,15 +74,11 @@ extension ViewController:NSCollectionViewDelegate,NSCollectionViewDataSource{
     }
     
     func collectionView(_ collectionView: NSCollectionView, itemForRepresentedObjectAt indexPath: IndexPath) -> NSCollectionViewItem {
-        let item = collectionView.makeItem(withIdentifier: NSUserInterfaceItemIdentifier(rawValue: "ImageCollectionViewItem"), for: indexPath)
-        let dic = list[indexPath.item]
-        if  let imageName = dic["fileName"] , !imageName.isEmpty{
-                item.textField?.stringValue = imageName
-                item.imageView?.image = NSImage.init(named: imageName)
-        }else{
-            item.textField?.stringValue = "\(indexPath.item)"
-        }
-        
+        let item:ImageCollectionViewItem = collectionView.makeItem(withIdentifier: NSUserInterfaceItemIdentifier(rawValue: "ImageCollectionViewItem"), for: indexPath) as! ImageCollectionViewItem
+        let info = list[indexPath.item]
+        item.info = info
+        item.indexPath = indexPath
+        item.delegate = self
         return item
     }
     
@@ -128,7 +96,10 @@ extension ViewController:NSCollectionViewDelegate,NSCollectionViewDataSource{
     }
     
     func collectionView(_ collectionView: NSCollectionView, pasteboardWriterForItemAt indexPath: IndexPath) -> NSPasteboardWriting? {
-        return String(indexPath.item) as NSPasteboardWriting
+        let pb = NSPasteboardItem()
+        let info = list[indexPath.item]
+        pb.setString(info.fileName, forType: NSPasteboard.PasteboardType.string)
+        return pb
     }
     
     func collectionView(_ collectionView: NSCollectionView, draggingSession session: NSDraggingSession, willBeginAt screenPoint: NSPoint, forItemsAt indexPaths: Set<IndexPath>) {
@@ -150,17 +121,17 @@ extension ViewController:NSCollectionViewDelegate,NSCollectionViewDataSource{
     func collectionView(_ collectionView: NSCollectionView, acceptDrop draggingInfo: NSDraggingInfo, indexPath: IndexPath, dropOperation: NSCollectionView.DropOperation) -> Bool {
         var toItemIndex = indexPath.item
         print("toItemIndex1 \(toItemIndex)")
-        let array:[[String : String]] = NSArray.init(array: list) as! [[String : String]]
+        let array:[PictureInfo] = NSArray.init(array: list) as! [PictureInfo]
         for fromItemIndexPath in indexPathsOfItemsBeingDragged {
             let fromItemIndex = fromItemIndexPath.item
             list.remove(at: fromItemIndex)
             if fromItemIndex > toItemIndex{
                 list.insert(array[fromItemIndex], at: toItemIndex)
-                collectionView.moveItem(at: fromItemIndexPath, to: indexPath)
+                self.collectionView.animator().moveItem(at: fromItemIndexPath, to: indexPath)
             }else{
                 toItemIndex = toItemIndex - 1
                 list.insert(array[fromItemIndex], at: toItemIndex)
-                collectionView.moveItem(at: fromItemIndexPath, to: IndexPath.init(item: toItemIndex, section: indexPath.section))
+                self.collectionView.animator().moveItem(at: fromItemIndexPath, to: IndexPath.init(item: toItemIndex, section: indexPath.section))
             }
         }
 
@@ -170,13 +141,40 @@ extension ViewController:NSCollectionViewDelegate,NSCollectionViewDataSource{
     func collectionView(_ collectionView: NSCollectionView, draggingSession session: NSDraggingSession, endedAt screenPoint: NSPoint, dragOperation operation: NSDragOperation) {
         indexPathsOfItemsBeingDragged.removeAll()
     }
+
 }
 
 extension ViewController: NSCollectionViewDelegateFlowLayout {
     // 返回Item的size
-    func collectionView(_ collectionView: NSCollectionView, layout collectionViewLayout: NSCollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> NSSize {
-        let height =  (self.view.frame.size.width - 20 * 4.0) / 4.0
-        return NSSize.init(width: height, height: height)
-    }
+//    func collectionView(_ collectionView: NSCollectionView, layout collectionViewLayout: NSCollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> NSSize {
+//        let height =  (self.view.frame.size.width - 20 * 4.0) / 4.0
+//        return NSSize.init(width: height, height: height)
+//    }
 }
 
+extension ViewController: ImageCollectionViewItemDelegate{
+    func changePictureInfoType(type: ImageCollectionChangeType, indexPath: IndexPath) {
+        
+        let info = self.list[indexPath.item]
+        switch type {
+        case .altitude: break
+        case .azimuth: break
+        case .primary:
+            for lastInfo in self.list{
+                lastInfo.isPrimary = false;
+            }
+            info.isPrimary = true
+        case .forLight:
+            for lastInfo in self.list{
+                lastInfo.isForLight = false;
+            }
+            info.isForLight = true
+        case .forDark:
+            for lastInfo in self.list{
+                lastInfo.isForDark = false;
+            }
+            info.isForDark = true
+        }
+        self.collectionView.reloadData()
+    }
+}

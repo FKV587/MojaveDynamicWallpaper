@@ -689,6 +689,7 @@
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                        <value key="minSize" type="size" width="1720" height="1000"/>
                         <connections>
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
                         </connections>
@@ -706,17 +707,17 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="MojaveDynamicWallpaper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1680" height="1200"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <scrollView wantsLayer="YES" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DcU-ET-b8e">
-                                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                            <scrollView wantsLayer="YES" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DcU-ET-b8e">
+                                <rect key="frame" x="0.0" y="50" width="1680" height="1150"/>
                                 <clipView key="contentView" id="zoh-CT-1QN">
-                                    <rect key="frame" x="1" y="1" width="478" height="268"/>
+                                    <rect key="frame" x="1" y="1" width="1678" height="1148"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <collectionView selectable="YES" allowsMultipleSelection="YES" id="K9M-Md-4Sa">
-                                            <rect key="frame" x="0.0" y="0.0" width="478" height="158"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1678" height="1148"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                             <collectionViewFlowLayout key="collectionViewLayout" minimumInteritemSpacing="10" minimumLineSpacing="10">
                                                 <size key="itemSize" width="50" height="50"/>
@@ -730,18 +731,31 @@
                                     </subviews>
                                 </clipView>
                                 <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="KFf-Us-gLB">
-                                    <rect key="frame" x="1" y="144" width="233" height="15"/>
+                                    <rect key="frame" x="-100" y="-100" width="233" height="15"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
-                                <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="Bbr-ux-MvG">
+                                <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="Bbr-ux-MvG">
                                     <rect key="frame" x="234" y="1" width="15" height="143"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5gJ-cj-SbZ">
+                                <rect key="frame" x="1539" y="3" width="127" height="41"/>
+                                <buttonCell key="cell" type="push" title="synthesis heic" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="QUP-DE-nh7">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="synthesisButtonAction:" target="XfG-lQ-9wD" id="gtV-UH-bVf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="5gJ-cj-SbZ" secondAttribute="bottom" constant="10" id="Cz7-S6-tjV"/>
                             <constraint firstItem="DcU-ET-b8e" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="H1l-Wu-Wrz"/>
-                            <constraint firstAttribute="bottom" secondItem="DcU-ET-b8e" secondAttribute="bottom" id="OKX-jY-Rj7"/>
+                            <constraint firstAttribute="trailing" secondItem="5gJ-cj-SbZ" secondAttribute="trailing" constant="20" id="H8b-q4-iIr"/>
+                            <constraint firstAttribute="bottom" secondItem="DcU-ET-b8e" secondAttribute="bottom" constant="50" id="OKX-jY-Rj7"/>
+                            <constraint firstItem="5gJ-cj-SbZ" firstAttribute="top" secondItem="DcU-ET-b8e" secondAttribute="bottom" constant="10" id="TpU-fX-99a"/>
                             <constraint firstAttribute="trailing" secondItem="DcU-ET-b8e" secondAttribute="trailing" id="ku5-1a-ovo"/>
                             <constraint firstItem="DcU-ET-b8e" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="lgG-0m-Pgl"/>
                         </constraints>
@@ -752,7 +766,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="75" y="1118"/>
         </scene>
     </scenes>
 </document>

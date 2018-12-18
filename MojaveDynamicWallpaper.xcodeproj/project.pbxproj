@@ -8,32 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		2F253C5121C3443A00FF4BCF /* ImageCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F253C5021C3443A00FF4BCF /* ImageCollectionViewItem.xib */; };
+		2F253C5321C8C28100FF4BCF /* Heic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F253C5221C8C28100FF4BCF /* Heic.swift */; };
 		2F34C42E21BE0A9300BB6DEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34C42D21BE0A9300BB6DEB /* AppDelegate.swift */; };
 		2F34C43021BE0A9300BB6DEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34C42F21BE0A9300BB6DEB /* ViewController.swift */; };
 		2F34C43221BE0A9D00BB6DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F34C43121BE0A9D00BB6DEB /* Assets.xcassets */; };
 		2F34C43521BE0A9D00BB6DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F34C43321BE0A9D00BB6DEB /* Main.storyboard */; };
 		2F34C44121BE0A9D00BB6DEB /* MojaveDynamicWallpaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34C44021BE0A9D00BB6DEB /* MojaveDynamicWallpaperTests.swift */; };
 		2F34C44C21BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34C44B21BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests.swift */; };
-		2F9F887F21C23DE100FD2519 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F887D21C23DE100FD2519 /* MainViewController.swift */; };
 		2F9F888521C342F100FD2519 /* ImageCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F888421C342F100FD2519 /* ImageCollectionViewItem.swift */; };
 		2FB8A77D21C0FC930063C39B /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 2FB8A76221C0FC910063C39B /* LICENSE.md */; };
 		2FB8A77E21C0FC930063C39B /* wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB8A76421C0FC910063C39B /* wallpaper.png */; };
 		2FB8A77F21C0FC930063C39B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2FB8A76521C0FC910063C39B /* README.md */; };
-		2FB8A78021C0FC930063C39B /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8A76621C0FC910063C39B /* Package.swift */; };
-		2FB8A78121C0FC930063C39B /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8A76921C0FC910063C39B /* Generator.swift */; };
 		2FB8A78221C0FC930063C39B /* Apperance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8A76B21C0FC920063C39B /* Apperance.swift */; };
 		2FB8A78321C0FC930063C39B /* SequenceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8A76C21C0FC920063C39B /* SequenceInfo.swift */; };
 		2FB8A78421C0FC930063C39B /* SequenceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8A76D21C0FC920063C39B /* SequenceItem.swift */; };
-		2FB8A78521C0FC930063C39B /* OutputType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8A76F21C0FC920063C39B /* OutputType.swift */; };
-		2FB8A78621C0FC930063C39B /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8A77021C0FC920063C39B /* ConsoleIO.swift */; };
 		2FB8A78721C0FC930063C39B /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8A77221C0FC920063C39B /* NSImage.swift */; };
 		2FB8A78821C0FC930063C39B /* PictureInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8A77421C0FC920063C39B /* PictureInfo.swift */; };
-		2FB8A78921C0FC930063C39B /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8A77521C0FC920063C39B /* Program.swift */; };
-		2FB8A78A21C0FC930063C39B /* NotSupportedSystemError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8A77721C0FC920063C39B /* NotSupportedSystemError.swift */; };
-		2FB8A78B21C0FC930063C39B /* NamespaceNotRegisteredError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8A77821C0FC920063C39B /* NamespaceNotRegisteredError.swift */; };
-		2FB8A78C21C0FC930063C39B /* ImageFinalizingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8A77921C0FC920063C39B /* ImageFinalizingError.swift */; };
-		2FB8A78D21C0FC930063C39B /* AddTagImageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8A77A21C0FC920063C39B /* AddTagImageError.swift */; };
-		2FB8A78F21C0FC930063C39B /* OptionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8A77C21C0FC920063C39B /* OptionType.swift */; };
 		4D784C5191A0C97180D67523 /* libPods-MojaveDynamicWallpaper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F76633D576522DD3CB88B5 /* libPods-MojaveDynamicWallpaper.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +47,7 @@
 /* Begin PBXFileReference section */
 		2BDD0CBCE7FA8993559992E2 /* Pods-MojaveDynamicWallpaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MojaveDynamicWallpaper.release.xcconfig"; path = "Target Support Files/Pods-MojaveDynamicWallpaper/Pods-MojaveDynamicWallpaper.release.xcconfig"; sourceTree = "<group>"; };
 		2F253C5021C3443A00FF4BCF /* ImageCollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewItem.xib; sourceTree = "<group>"; };
+		2F253C5221C8C28100FF4BCF /* Heic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heic.swift; sourceTree = "<group>"; };
 		2F34C42A21BE0A9300BB6DEB /* MojaveDynamicWallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MojaveDynamicWallpaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F34C42D21BE0A9300BB6DEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F34C42F21BE0A9300BB6DEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,26 +61,15 @@
 		2F34C44721BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MojaveDynamicWallpaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F34C44B21BE0A9E00BB6DEB /* MojaveDynamicWallpaperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojaveDynamicWallpaperUITests.swift; sourceTree = "<group>"; };
 		2F34C44D21BE0A9E00BB6DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F9F887D21C23DE100FD2519 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2F9F888421C342F100FD2519 /* ImageCollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewItem.swift; sourceTree = "<group>"; };
 		2FB8A76221C0FC910063C39B /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		2FB8A76421C0FC910063C39B /* wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallpaper.png; sourceTree = "<group>"; };
 		2FB8A76521C0FC910063C39B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2FB8A76621C0FC910063C39B /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		2FB8A76921C0FC910063C39B /* Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
 		2FB8A76B21C0FC920063C39B /* Apperance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Apperance.swift; sourceTree = "<group>"; };
 		2FB8A76C21C0FC920063C39B /* SequenceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceInfo.swift; sourceTree = "<group>"; };
 		2FB8A76D21C0FC920063C39B /* SequenceItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceItem.swift; sourceTree = "<group>"; };
-		2FB8A76F21C0FC920063C39B /* OutputType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputType.swift; sourceTree = "<group>"; };
-		2FB8A77021C0FC920063C39B /* ConsoleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleIO.swift; sourceTree = "<group>"; };
 		2FB8A77221C0FC920063C39B /* NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
 		2FB8A77421C0FC920063C39B /* PictureInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureInfo.swift; sourceTree = "<group>"; };
-		2FB8A77521C0FC920063C39B /* Program.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
-		2FB8A77721C0FC920063C39B /* NotSupportedSystemError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSupportedSystemError.swift; sourceTree = "<group>"; };
-		2FB8A77821C0FC920063C39B /* NamespaceNotRegisteredError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamespaceNotRegisteredError.swift; sourceTree = "<group>"; };
-		2FB8A77921C0FC920063C39B /* ImageFinalizingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFinalizingError.swift; sourceTree = "<group>"; };
-		2FB8A77A21C0FC920063C39B /* AddTagImageError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTagImageError.swift; sourceTree = "<group>"; };
-		2FB8A77C21C0FC920063C39B /* OptionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionType.swift; sourceTree = "<group>"; };
 		2FB8A79021C107B10063C39B /* bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridging.h; sourceTree = "<group>"; };
 		A2F76633D576522DD3CB88B5 /* libPods-MojaveDynamicWallpaper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MojaveDynamicWallpaper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1B0E1C2D3338AD5D7D49F8 /* Pods-MojaveDynamicWallpaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MojaveDynamicWallpaper.debug.xcconfig"; path = "Target Support Files/Pods-MojaveDynamicWallpaper/Pods-MojaveDynamicWallpaper.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,10 +126,14 @@
 		2F34C42C21BE0A9300BB6DEB /* MojaveDynamicWallpaper */ = {
 			isa = PBXGroup;
 			children = (
-				2F9F887B21C23DE100FD2519 /* MainViewController */,
 				2FB8A76121C0FC910063C39B /* wallpapper */,
+				2FB8A77121C0FC920063C39B /* Extensions */,
+				2FB8A76A21C0FC910063C39B /* PropertyList */,
+				2FB8A77321C0FC920063C39B /* Model */,
+				2F9F887B21C23DE100FD2519 /* View&&Cell */,
 				2F34C42D21BE0A9300BB6DEB /* AppDelegate.swift */,
 				2F34C42F21BE0A9300BB6DEB /* ViewController.swift */,
+				2F253C5221C8C28100FF4BCF /* Heic.swift */,
 				2FB8A79021C107B10063C39B /* bridging.h */,
 				2F34C43121BE0A9D00BB6DEB /* Assets.xcassets */,
 				2F34C43321BE0A9D00BB6DEB /* Main.storyboard */,
@@ -177,14 +161,13 @@
 			path = MojaveDynamicWallpaperUITests;
 			sourceTree = "<group>";
 		};
-		2F9F887B21C23DE100FD2519 /* MainViewController */ = {
+		2F9F887B21C23DE100FD2519 /* View&&Cell */ = {
 			isa = PBXGroup;
 			children = (
-				2F9F887D21C23DE100FD2519 /* MainViewController.swift */,
 				2F9F888421C342F100FD2519 /* ImageCollectionViewItem.swift */,
 				2F253C5021C3443A00FF4BCF /* ImageCollectionViewItem.xib */,
 			);
-			path = MainViewController;
+			path = "View&&Cell";
 			sourceTree = "<group>";
 		};
 		2FB8A76121C0FC910063C39B /* wallpapper */ = {
@@ -193,8 +176,6 @@
 				2FB8A76221C0FC910063C39B /* LICENSE.md */,
 				2FB8A76321C0FC910063C39B /* Images */,
 				2FB8A76521C0FC910063C39B /* README.md */,
-				2FB8A76621C0FC910063C39B /* Package.swift */,
-				2FB8A76721C0FC910063C39B /* Sources */,
 			);
 			path = wallpapper;
 			sourceTree = SOURCE_ROOT;
@@ -207,29 +188,6 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
-		2FB8A76721C0FC910063C39B /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				2FB8A76821C0FC910063C39B /* wallpapper */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		2FB8A76821C0FC910063C39B /* wallpapper */ = {
-			isa = PBXGroup;
-			children = (
-				2FB8A76A21C0FC910063C39B /* PropertyList */,
-				2FB8A76E21C0FC920063C39B /* ConsoleOutput */,
-				2FB8A77121C0FC920063C39B /* Extensions */,
-				2FB8A77321C0FC920063C39B /* Model */,
-				2FB8A77621C0FC920063C39B /* Errors */,
-				2FB8A77C21C0FC920063C39B /* OptionType.swift */,
-				2FB8A76921C0FC910063C39B /* Generator.swift */,
-				2FB8A77521C0FC920063C39B /* Program.swift */,
-			);
-			path = wallpapper;
-			sourceTree = "<group>";
-		};
 		2FB8A76A21C0FC910063C39B /* PropertyList */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,15 +196,6 @@
 				2FB8A76D21C0FC920063C39B /* SequenceItem.swift */,
 			);
 			path = PropertyList;
-			sourceTree = "<group>";
-		};
-		2FB8A76E21C0FC920063C39B /* ConsoleOutput */ = {
-			isa = PBXGroup;
-			children = (
-				2FB8A76F21C0FC920063C39B /* OutputType.swift */,
-				2FB8A77021C0FC920063C39B /* ConsoleIO.swift */,
-			);
-			path = ConsoleOutput;
 			sourceTree = "<group>";
 		};
 		2FB8A77121C0FC920063C39B /* Extensions */ = {
@@ -263,17 +212,6 @@
 				2FB8A77421C0FC920063C39B /* PictureInfo.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		2FB8A77621C0FC920063C39B /* Errors */ = {
-			isa = PBXGroup;
-			children = (
-				2FB8A77721C0FC920063C39B /* NotSupportedSystemError.swift */,
-				2FB8A77821C0FC920063C39B /* NamespaceNotRegisteredError.swift */,
-				2FB8A77921C0FC920063C39B /* ImageFinalizingError.swift */,
-				2FB8A77A21C0FC920063C39B /* AddTagImageError.swift */,
-			);
-			path = Errors;
 			sourceTree = "<group>";
 		};
 		AFB93F8ECAA7BAB735A070FD /* Pods */ = {
@@ -458,24 +396,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FB8A78F21C0FC930063C39B /* OptionType.swift in Sources */,
-				2FB8A78C21C0FC930063C39B /* ImageFinalizingError.swift in Sources */,
-				2FB8A78621C0FC930063C39B /* ConsoleIO.swift in Sources */,
 				2FB8A78221C0FC930063C39B /* Apperance.swift in Sources */,
-				2FB8A78D21C0FC930063C39B /* AddTagImageError.swift in Sources */,
-				2FB8A78B21C0FC930063C39B /* NamespaceNotRegisteredError.swift in Sources */,
-				2FB8A78021C0FC930063C39B /* Package.swift in Sources */,
+				2F253C5321C8C28100FF4BCF /* Heic.swift in Sources */,
 				2FB8A78421C0FC930063C39B /* SequenceItem.swift in Sources */,
 				2F9F888521C342F100FD2519 /* ImageCollectionViewItem.swift in Sources */,
 				2FB8A78721C0FC930063C39B /* NSImage.swift in Sources */,
 				2FB8A78321C0FC930063C39B /* SequenceInfo.swift in Sources */,
-				2FB8A78121C0FC930063C39B /* Generator.swift in Sources */,
 				2F34C43021BE0A9300BB6DEB /* ViewController.swift in Sources */,
-				2FB8A78A21C0FC930063C39B /* NotSupportedSystemError.swift in Sources */,
-				2FB8A78921C0FC930063C39B /* Program.swift in Sources */,
 				2FB8A78821C0FC930063C39B /* PictureInfo.swift in Sources */,
-				2F9F887F21C23DE100FD2519 /* MainViewController.swift in Sources */,
-				2FB8A78521C0FC930063C39B /* OutputType.swift in Sources */,
 				2F34C42E21BE0A9300BB6DEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
